@@ -2,74 +2,74 @@
   <div class="flex flex-col text-white items-center">
     <ul class="ml-auto">
       <li>
-        <a href="#" class="w-full">
+        <router-link to="/" class="w-full">
           <div class="flex items-center w-fit">
             <i class="fa-brands fa-twitter"></i></div
-        ></a>
+        ></router-link>
       </li>
       <li>
-        <a href="#" class="w-full">
+        <router-link to="/a" class="w-full">
           <div class="flex items-center w-fit">
             <i class="fa-solid fa-house" />
             <span>Anasayfa</span>
-          </div></a
-        >
+          </div>
+        </router-link>
       </li>
       <li>
-        <a href="#" class="w-full">
+        <router-link to="" class="w-full">
           <div class="flex items-center w-fit">
             <i class="fa-light fa-hashtag" />
             <span> Keşfet </span>
           </div>
-        </a>
+        </router-link>
       </li>
       <li>
-        <a href="#" class="w-full">
+        <router-link to="" class="w-full">
           <div class="flex items-center w-fit">
             <i class="fa-regular fa-bell" />
             <span> Bildirimler</span>
-          </div></a
+          </div></router-link
         >
       </li>
       <li>
-        <a href="#" class="w-full">
+        <router-link to="" class="w-full">
           <div class="flex items-center w-fit">
             <i class="fa-regular fa-envelope"></i>
             <span>Mesajlar</span>
           </div>
-        </a>
+        </router-link>
       </li>
       <li>
-        <a href="#" class="w-full">
+        <router-link to="" class="w-full">
           <div class="flex items-center w-fit">
             <i class="fa-regular fa-bookmark" />
             <span> Yer işaretleri </span>
           </div>
-        </a>
+        </router-link>
       </li>
       <li>
-        <a href="#" class="w-full">
+        <router-link to="" class="w-full">
           <div class="flex items-center w-fit">
             <i class="fa-regular fa-rectangle-list"></i>
             <span>Listeler</span>
           </div>
-        </a>
+        </router-link>
       </li>
       <li>
-        <a href="#" class="w-full">
+        <router-link to="" class="w-full">
           <div class="flex items-center w-fit">
             <i class="fa-regular fa-user"></i>
             <span>Profil</span>
-          </div></a
+          </div></router-link
         >
       </li>
       <li>
-        <a href="#" class="w-full">
+        <router-link to="" class="w-full">
           <div class="flex items-center w-fit">
             <i class="fa-solid fa-ellipsis"></i>
             <span>Daha fazla</span>
           </div>
-        </a>
+        </router-link>
       </li>
     </ul>
   </div>
@@ -82,7 +82,7 @@ export default {
 
 <style lang="scss">
 li {
-  @apply text-left py-2 font-light text-lg flex;
+  @apply text-left py-2 font-light flex;
 }
 li > a {
   @apply pr-20;

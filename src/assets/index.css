@@ -4,3 +4,28 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
+:root {
+  --main-color: #ff7a00;
+  --search-bar: rgb(32 35 39);
+}
+
+.main-theme-text-color {
+  color: var(--main-color);
+}
+.main-theme-background-color {
+  background-color: var(--main-color);
+}
+
+.search-bar-color {
+  background-color: var(--search-bar);
+  color: white;
+}
+.search-bar-color::placeholder {
+  font-weight: 100;
+}
+
+html {
+  background: black;
+  overflow-x: hidden;
+}
