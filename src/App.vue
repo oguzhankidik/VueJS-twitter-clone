@@ -5,7 +5,7 @@
         <Sidebar />
       </div>
       <div
-        class="border-r border-l h-screen border-gray-400 border-opacity-30 border-solid"
+        class="border-r border-l min-h-screen border-gray-400 border-opacity-30 border-solid"
       >
         <router-view></router-view>
       </div>

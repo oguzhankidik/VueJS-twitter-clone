@@ -56,7 +56,7 @@
         </router-link>
       </li>
       <li>
-        <router-link to="" class="w-full">
+        <router-link to="/oguzhankdk" class="w-full">
           <div class="flex items-center w-fit">
             <i class="fa-regular fa-user"></i>
             <span>Profil</span>
