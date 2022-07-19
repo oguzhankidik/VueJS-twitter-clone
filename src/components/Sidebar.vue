@@ -1,15 +1,15 @@
 <template>
-  <div class="flex flex-col text-white items-center">
+  <div class="flex flex-col text-white">
     <ul class="ml-auto">
       <li>
         <router-link to="/" class="w-full">
-          <div class="flex items-center w-fit">
+          <div class="flex w-fit">
             <i class="fa-brands fa-twitter"></i></div
         ></router-link>
       </li>
       <li>
-        <router-link to="/a" class="w-full">
-          <div class="flex items-center w-fit">
+        <router-link to="/" class="w-full">
+          <div class="flex w-fit">
             <i class="fa-solid fa-house" />
             <span>Anasayfa</span>
           </div>
@@ -17,7 +17,7 @@
       </li>
       <li>
         <router-link to="" class="w-full">
-          <div class="flex items-center w-fit">
+          <div class="flex w-fit">
             <i class="fa-light fa-hashtag" />
             <span> Keşfet </span>
           </div>
@@ -25,7 +25,7 @@
       </li>
       <li>
         <router-link to="" class="w-full">
-          <div class="flex items-center w-fit">
+          <div class="flex w-fit">
             <i class="fa-regular fa-bell" />
             <span> Bildirimler</span>
           </div></router-link
@@ -33,7 +33,7 @@
       </li>
       <li>
         <router-link to="" class="w-full">
-          <div class="flex items-center w-fit">
+          <div class="flex w-fit">
             <i class="fa-regular fa-envelope"></i>
             <span>Mesajlar</span>
           </div>
@@ -41,7 +41,7 @@
       </li>
       <li>
         <router-link to="" class="w-full">
-          <div class="flex items-center w-fit">
+          <div class="flex w-fit">
             <i class="fa-regular fa-bookmark" />
             <span> Yer işaretleri </span>
           </div>
@@ -49,7 +49,7 @@
       </li>
       <li>
         <router-link to="" class="w-full">
-          <div class="flex items-center w-fit">
+          <div class="flex w-fit">
             <i class="fa-regular fa-rectangle-list"></i>
             <span>Listeler</span>
           </div>
@@ -57,7 +57,7 @@
       </li>
       <li>
         <router-link to="/oguzhankdk" class="w-full">
-          <div class="flex items-center w-fit">
+          <div class="flex w-fit">
             <i class="fa-regular fa-user"></i>
             <span>Profil</span>
           </div></router-link
@@ -65,7 +65,7 @@
       </li>
       <li>
         <router-link to="" class="w-full">
-          <div class="flex items-center w-fit">
+          <div class="flex w-fit">
             <i class="fa-solid fa-ellipsis"></i>
             <span>Daha fazla</span>
           </div>

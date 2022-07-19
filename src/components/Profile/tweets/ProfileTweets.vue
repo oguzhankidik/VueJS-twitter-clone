@@ -39,48 +39,27 @@ import WhoToFollow from "./who-to-follow.vue";
 import TopicsToFollow from "./topics-to-follow.vue";
 import { ref } from "vue";
 import axios from "axios";
-const whoToFollow = ref([
-  {
-    title: "hic etik degil",
-    hashtag: "@hicetikdegil",
-    description:
-      "bu hesaptaki içerikler atalarınıza, kitabınıza ve her türlü değer yargınıza hakaret içerebilir.",
-    img: "/src/assets/pp1.jpg",
-  },
-  {
-    title: "h",
-    hashtag: "@Pikohh",
-    description: "通吃",
-    img: "/src/assets/pp2.jpg",
-  },
-  {
-    title: "rezalet iyi şeyler",
-    hashtag: "@rezaletiyisey",
-    description:
-      "ok boomer öneri veya reklam varsa alırız dm 🤠 rezaletiyiseyler@yandex.com ig: rezaletiyiseyler",
-    img: "/src/assets/pp3.jpg",
-  },
-]);
+const whoToFollow = ref([]);
 
-const chips = [
-  "Viral Tweetler",
-  "Hava durumu",
-  "Otomobil markaları",
-  "Kediler",
-  "Teknoloji haberleri",
-  "Futbol",
-  "Sanat ve kültür",
-  "Uzay ve astronomi",
-  "Popüler resimler",
-  "The Office",
-];
+const chips = ref([]);
 
 axios({
-  url: "posts",
+  url: "chips",
   baseURL: "http://localhost:3004",
 })
   .then((response) => {
-    console.log(response.data, "asdsa");
+    chips.value = response.data;
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+
+axios({
+  url: "who-to-follow",
+  baseURL: "http://localhost:3004",
+})
+  .then((response) => {
+    whoToFollow.value = response.data;
   })
   .catch((error) => {
     console.log(error);

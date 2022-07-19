@@ -29,3 +29,7 @@ html {
   background: black;
   overflow-x: hidden;
 }
+
+.icon-class {
+  @apply h-5 w-5 inline-block fill-current max-w-full;
+}
